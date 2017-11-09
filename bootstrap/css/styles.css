@@ -1,0 +1,43 @@
+#jumbotron {
+    background-color: black;
+    color: white;
+}
+#footer {
+    background-color: black;
+    color: white;
+}
+#htmlbtn {
+    background-color: lightyellow;
+    border: none;
+    color: black
+}
+#boxbtn {
+    background-color: pink;
+    border: none;
+    color: black
+}
+#scriptbtn {
+    background-color:plum;
+    border: none;
+    color: black
+}
+#modelbtn {
+    background-color: mediumpurple;
+    border: none;
+    color: black
+}
+#linkbtn {
+    background-color: plum;
+    border: none;
+    color: black
+}
+#jsbtn {
+    background-color: pink;
+    border: none;
+    color: black
+}
+#accessbtn {
+    background-color: lightyellow;
+    border: none;
+    color: black
+}

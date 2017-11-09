@@ -2,29 +2,48 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
             <link href="css/styles.css" rel="stylesheet" type="text/css" />
                 <title>Lotus Design</title>
                     </head>
     
     <body>
     <!---Start of Jumbotron--->
-        <div class="jumbotron text-center">
-            
+        <div class="jumbotron text-center" id="jumbotron">
             <h1>Lotus Design</h1>
                 <p>Learn more about CSS and HTML</p>
-                    </div>
-    <!---End of Jumbotron--->
+    <!--Buttons Start-->
+                    <a class="btn btn-primary" id="htmlbtn">HTML and CSS</a>
+                    <a class="btn btn-primary" id="boxbtn">CSS Box Model</a>
+                    <a class="btn btn-primary" id="scriptbtn">Scripting Models</a>
+                    <a class="btn btn-primary" id="modelbtn">CSS Models</a>
+                    <a class="btn btn-primary" id="linkbtn">CSS Linking</a>
+                    <a class="btn btn-primary" id="jsbtn">JS Features</a>
+                    <a class="btn btn-primary" id="accessbtn">Accessibility</a>
+    <!--Buttons End-->
+        </div>
         
+    <!---End of Jumbotron--->
+    
     <!--Start of Container 1--->
             <div class="container">
                 <div class="row">
                     <div class="col s14 text-right">
+                                <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+                        <!--Image Start-->
+                            <div class="col-md-6">
+                             <img class="responsive-img" src="assets/pexels-photo-97077.jpeg" class="img-rpunded" alt="HTMl">   
+                            </div>
+                      <!--Image End-->
+                        
                         <h3>HTML and CSS</h3>
-                        <p>There are three main ways in which CSS<br> links HTML. They are: Inline, Internal, and External. Inline<br>is where CSS is applied to one element in a page. This is<br> done in the HTML code by the style the HTML tag. Internal<br> is where CSS is written in the web pages header. The code<br> for this will be placed in style tags so the browser knows to<br>read it as CSS code. External is each style will be applied<br>to any of the HTML tags. This reduces CSS styles to be.<br> This is written in a .CSS file which is then saved seperately.</p>
-                                </div>
+                        <p>There are three main ways in which CSS<br> links HTML. They are: Inline, Internal, and External. Inline<br>is where CSS is applied to one element in a page. This is<br> done in the HTML code by the style the HTML tag. Internal<br> is where CSS is written in the web pages header. The code<br> for this will be placed in style tags so the browser knows to<br>read it as CSS code. External is each style will be applied<br>to any of the HTML tags. This reduces CSS styles to be.<br> This is written in a .CSS file which is then saved seperately.</p>                             
     <!---End of Container 1--->
-                    
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
     <!---Start of Container 2--->
                     <div class="container">
                         <div class="row">
@@ -33,7 +52,16 @@
                         <p>The Box Model is essentially a box which wraps around every HTML element. This consists of: <br> margins, borders, padding and the actual content. The Margin is a clear box around the border <br> of the content. The Margin is a specific area that has been coded. It is in between the browser <br> and the border. It gives the content enough space from the edge of the web page. The Border <br> has different values which is used to design the element. The border is used to make the <br> content stand out more. This can be done by changing the thickness, style or colour. The <br> Padding gives space between the border and the content. The Padding is transparent. It <br> clears an area around the content. The Content is what is actually on the webpage.This can <br> vary from page to page, it is up to the designer what it looks like. This is done using CSS and <br> HTML.</p>
                                 </div>
     <!---End of Container 2-->
-            
+                            
+    <!--Footer Start-->
+                <div class="navbar navbar-default navbar-fixed-bottom" id="footer">
+                    <div class="container">
+                        <p class="navbar-text pull-left" id="footer"><strong>Site built by Elise Plant</strong></p>
+                        <a class="navbar-btn btn-default btn pull-right">Contact Us</a>
+                    </div>            
+                </div>
+    <!--Footer End-->
+                            
             </div>
         </div>
           <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
