@@ -1,7 +1,7 @@
 #jumbotron {
     background-color: black;
     border: black;
-    color: white
+    color: white;
 }
 #footer {
     background-color: black;
@@ -10,58 +10,58 @@
 #htmlbtn {
     background-color: lightyellow;
     border: none;
-    color: black
+    color: black;
 }
 #boxbtn {
     background-color: pink;
     border: none;
-    color: black
+    color: black;
 }
 #scriptbtn {
     background-color:plum;
     border: none;
-    color: black
+    color: black;
 }
 #modelbtn {
     background-color: mediumpurple;
     border: none;
-    color: black
+    color: black;
 }
 #linkbtn {
     background-color: plum;
     border: none;
-    color: black
+    color: black;
 }
 #jsbtn {
     background-color: pink;
     border: none;
-    color: black
+    color: black;
 }
 #accessbtn {
     background-color: lightyellow;
     border: none;
-    color: black
+    color: black;
 }
 #con1 {
     background-color: lightyellow;
     border: lightyellow;
-    color: black
+    color: black;
 }
 
 #con2 {
     background-color: pink;
     border: pink;
-    color: black
+    color: black;
 }
 #con3 {
     background-color: plum;
     border: plum;
-    color: black
+    color: black;
 }
 #img1 {
     background-color: lightyellow;
     border: lightyellow;
-    color: black
+    color: black;
 }
 #con4 {
     background-color: mediumpurple;
@@ -71,5 +71,15 @@
 #con5 {
     background-color: plum;
     border: plum;
-    color: black
+    color: black;
+}
+#con6 {
+    background-color: pink;
+    border: pink;
+    color: black;
+}
+.yBox {margin-top: -30px;
+}
+.img-top{
+    padding-top: 20px;
 }

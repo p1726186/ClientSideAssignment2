@@ -2,11 +2,10 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
-
+ <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
             <link href="css/styles.css" rel="stylesheet" type="text/css" />
                 <title>Lotus Design</title>
                     </head>
-    
     <body>
     <!---Start of Jumbotron--->
         <div class="jumbotron text-center" id="jumbotron">
@@ -25,9 +24,10 @@
     <!---End of Jumbotron--->
     
     <!---Start of Container 1--->
-            <div class="container" id="con1">
+        <div id="con1">
+        <div class="container yBox" id="con1">
                 <div class="row">
-                    <div class="col s14 text-right">
+                    <div class="col s14 pull-right">
                                 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
                         <!---Start of Image 1--->
                             <img div class="col-md-5" class="img-responsive" src="assets/img1.jpeg" class="img-rounded" alt="HTML" id="img1">
@@ -35,32 +35,32 @@
                         <h3>HTML and CSS</h3>
                         <p>There are three main ways in which CSS links HTML. They are: Inline, Internal, and External. Inline is where CSS is applied to one element in a page. This is done in the HTML code by the style the HTML tag. Internal is where CSS is written in the web pages header. The code for this will be placed in style tags so the browser knows to read it as CSS code. External is each style will be applied to any of the HTML tags. This reduces CSS styles to be. This is written in a .CSS file which is then saved seperately.</p>
                 </div>
-    <!---End of Container 1--->
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        
+                </div>
+                </div>
+            </div> 
+                <!---End of Container 1--->
+            
     <!---Start of Container 2--->
+        <div id="con2">
                     <div class="container" id="con2">
                         <div class="row">
-                            <div class="col s14 text-left">
-                                <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+                            <div class="col-md-8">
+                               <h3>CSS Box Model</h3>
+                        <p>The Box Model is essentially a box which wraps around every HTML element. This consists of: <br> margins, borders, padding and the actual content. The Margin is a clear box around the border<br> of the content. The Margin is a specific area that has been coded. It is in between the browser <br> and the border. It gives the content enough space from the edge of the web page. The Border <br> has different values which is used to design the element. The border is used to make the <br> content stand out more. This can be done by changing the thickness, style or colour. The <br> Padding gives space between the border and the content. The Padding is transparent. It <br> clears an area around the content. The Content is what is actually on the webpage.This can <br> vary from page to page, it is up to the designer what it looks like. This is done using CSS and <br> HTML.</p> 
+                            </div>
+                            <div class="col-md-4">
+                               
                            <!---Start of Image 2--->
-                                <div class="col-xs-12"> 
-                                <img src="assets/box-model.png" class="pull-right img-responsive">
-                                </div>
+                                 
+                                <img src="assets/box-model.png" class="pull-right img-responsive img-top">
+                            </div>
                             </div>
                         </div>
+            </div>
                         <!---End of Image 2--->
-                        <h3>CSS Box Model</h3>
-                        <p>The Box Model is essentially a box which wraps around every HTML element. This consists of: <br> margins, borders, padding and the actual content. The Margin is a clear box around the border<br> of the content. The Margin is a specific area that has been coded. It is in between the browser <br> and the border. It gives the content enough space from the edge of the web page. The Border <br> has different values which is used to design the element. The border is used to make the <br> content stand out more. This can be done by changing the thickness, style or colour. The <br> Padding gives space between the border and the content. The Padding is transparent. It <br> clears an area around the content. The Content is what is actually on the webpage.This can <br> vary from page to page, it is up to the designer what it looks like. This is done using CSS and <br> HTML.</p>
-                        <br>
-                        <br>
-                        <br>
-                        </div>
-                        </div>
-                        </div>
+                        
+                       
+                      
                         <!---End of Container 2-->
         
             <!---Start of Container 3--->
@@ -92,7 +92,7 @@
             </div>
         <!---End of Image 4--->
         <h3>CSS Models</h3>
-            <p>There are different CSS styles when creating your own web page with HTML and CSS.<br> The three different CSS types are; Inline, Internal and External.Inline is a style which<br>can be used on any web page as you are using a specific tag. The HTML tag which<br> you will use will begin with style, this is an attribute. By using Inline you will be able<br>to type anything you want. Inline is quick and simple to use if you know how to use it.<br>This is because you can simply add or take away anything without having to make<br> different files for every change you make. An advantage of using Inline is that there is<br> fewer HTTP requests. This means that the web page will load quicker and be more<br> responsive than it would be if Internal or External was used. Another advantage is that <br>Inline CSS can be used to debug other pages when an error is found. This means that<br> it is quicker for the error to be fixed. Inline also allows for more creativity and freedom<br> when designing a web page with HTML. A disadvantage is that you will have to manually<br>insert all of the HTML. This means it will take a long time. It also means that if an error is<br> made you will have to erase it and redo it again. Another disadvantage is that if you<br> wanted to change something, such as the colour, then you will have to add an inline style<br>to each p tag. This can take a while if there is a lot of content and it means they will have<br>to add it to each tag.Internal Style is also known as Embedded Style. Internal is used to<br>create a whole page within a website. This is done in a separate file just like External is.<br> An advantage of Internal Style is that it allows the designers to keep a same style on every<br>part of the file they are creating. This means that while the user is creating the page, they<br> won’t have to apply or type out the same HTML code for every element they use. For<br> example, if the creator wanted all of the heading to be the same, they would choose their<br> font such as “Georgia”, then they would just need to add an inline attribute p which goes<br>inside the internal document for that specific section. A disadvantage of using Internal<br>Style is that it takes a while to load the page. This is because there is not a lot of HTTP<br>demands. This makes Internal Style slower than both Inline and External. Another<br>disadvantage is that once the file is created and saved, that file can only be used if the<br> creator has inserted to use the HTML code which is going to be used for the web page. If<br>they wish to edit the file again, they would need to create a new file and copy everything<br> over again. External Style is a file which will only contain HTML coded within it and will<br> need to be saved as ‘CSS’. With Inline, the element style would be used, however with<br> External the element link will be used. This means that the file style sheet will be linked to <br>the page or pages of the website. This means that when using External the rule will only<br> need to be set once. An advantage of External Style is that it enables the designer to have<br> complete access of the page structure. It will also separate it from your website and content.<br> When using External Style it means that the designer can reuse the HTML code if it has been<br> kept in a separate file, this means that the whole code won’t need to be rewritten again. A <br>disadvantage of using External Style is that you won’t be able to access the website if the<br> external file is missing, which can cause a lot of problems. If a large file is being used to insert<br>into the website then it can cause the download time to be very slow when trying to open it<br> on the internet.</p>
+            <p>There are different CSS styles when creating your own web page with HTML and CSS. The three different CSS types are; Inline, Internal and External.Inline is a style which can be used on any web page as you are using a specific tag. The HTML tag which you will use will begin with style, this is an attribute. By using Inline you will be able to type anything you want. Inline is quick and simple to use if you know how to use it.This is because you can simply add or take away anything without having to make different files for every change you make. An advantage of using Inline is that there is fewer HTTP requests. This means that the web page will load quicker and be more responsive than it would be if Internal or External was used. Another advantage is that Inline CSS can be used to debug other pages when an error is found. This means that it is quicker for the error to be fixed. Inline also allows for more creativity and freedom when designing a web page with HTML.<p> A disadvantage is that you will have to manually insert all of the HTML. This means it will take a long time. It also means that if an error is made you will have to erase it and redo it again. Another disadvantage is that if you wanted to change something, such as the colour, then you will have to add an inline style to each p tag. This can take a while if there is a lot of content and it means they will have to add it to each tag.Internal Style is also known as Embedded Style. Internal is used to create a whole page within a website. This is done in a separate file just like External is. An advantage of Internal Style is that it allows the designers to keep a same style on every part of the file they are creating. This means that while the user is creating the page, they won’t have to apply or type out the same HTML code for every element they use. For example, if the creator wanted all of the heading to be the same, they would choose their font such as “Georgia”, then they would just need to add an inline attribute p which goes inside the internal document for that specific section. A disadvantage of using Internal Style is that it takes a while to load the page. This is because there is not a lot of HTTP demands. This makes Internal Style slower than both Inline and External.<p> Another disadvantage is that once the file is created and saved, that file can only be used if the creator has inserted to use the HTML code which is going to be used for the web page. If they wish to edit the file again, they would need to create a new file and copy everything over again. External Style is a file which will only contain HTML coded within it and will need to be saved as ‘CSS’. With Inline, the element style would be used, however with External the element link will be used. This means that the file style sheet will be linked to the page or pages of the website. This means that when using External the rule will only need to be set once. An advantage of External Style is that it enables the designer to have complete access of the page structure. It will also separate it from your website and content. When using External Style it means that the designer can reuse the HTML code if it has been kept in a separate file, this means that the whole code won’t need to be rewritten again. A disadvantage of using External Style is that you won’t be able to access the website if the external file is missing, which can cause a lot of problems. If a large file is being used to insert into the website then it can cause the download time to be very slow when trying to open it on the internet.</p>
             <br>
             <br>
             <br>
@@ -104,38 +104,34 @@
         <!---Start of container 5--->
         <div class="container" id="con5">
                 <div class="row">
-                    <div class="col s14 text-right">
+                    <div class="col s14 pull-right">
                                 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
                         <!---Start of Image 5--->
                             <img div class="col-md-5" class="img-responsive" src="assets/img5.jpeg" class="img-rounded" alt="HTML">
                         <!---End of Image 5---> 
                         <h3>CSS Linking</h3>
-                        <p>Scripting Language is a tool which is used to add functionality to other software. Scripting Language is not as powerful as a full programming language. It is designed for simple tasks such as creating dropdown menus or searching databases. Scripting Language makes it possible to improve the usability of the webpage. It can also be used to reduce the load that the web server has to deal with, it can also be used to improve the design of a webpage which is being created. With JavaScript, there are many different things which can improve a website, such as alerts, user prompting, form handling, and cookie retention.Confirming Choices and User Prompting: JavaScript can be used to get confirmation from a user that they actually want to perform an action. This is useful because it is very easy for the user to have accidentally clicked a button when they didn't mean to. This means that the website will ask the user if they meant to have pressed that button, if they did then the website will continue and perform the action. If the user did not mean to click the button then this will allow them to select no and they can continue with what they were doing to the page. Confirmation boxes in JavaScript stop the automatic loading and progression of a webpage. An example of a confirmation is JavaScript is: X = window.confirm() If (x) { delete(); } Browser Detection: Scripting Language can also be used to detect what browser the user has used to access the webpage. This is helpful because different browsers display the same HTML/CSS code in slightly different ways. JavaScript can be used id needed to load different CSS style sheets depending on the browser being used. Each CSS file would work in a different browser meaning it will keep a consistent display across browsers. Older browsers aren't as secure as newer ones are and the older ones are more vulnerable than the newer browsers. This means that certain websites, such as online banking, may choose to stop users of older browsers from accessing the service in order to protect their details. An example of browser detection is:-console.log(navigator.appCodeName; 	//get browser name console.log(navigator.product);		// get rendering engine name Checking/Validating Inputs Scripting Languages can also be used to check the data which is entered to ensure that it is in a valid format. This means that that user will be told if the information they have entered is invalid. This will ensure that the user will get a quicker response than they would if server side validation was used. Client side validation is also a good option for the designer to use. This is because it means that less invalid forms are submitted to the server, this is because most errors are caught before sending. An example of validating inputs is:- Function validateForm() { Var firstName = document.getElementById(“firstnameInput”).value; If (x == null ii x == “”) { alert(“Name must be filled out”); } } Form Handling Forms on webpages can be improved by using JavaScript. This is because scripting languages can be used to do real time calculations. This means that calculations can be calculated for the user. And example of this is Amazon, the total cost is automatically worked out for the user. JavaScript can also be used to reset a form to its default state. This means that the user can quickly start a form again if they wish to or if they have a made a mistake. This saves the user time as they won’t have to manually delete everything themselves. An example of form handling is:- document.getElementById(“ contactForm”) .submit(); document.getElementById(‘contactForm”).reset(); </p>
+                        <p>Scripting Language is a tool which is used to add functionality to other software. Scripting Language is not as powerful as a full programming language. It is designed for simple tasks such as creating dropdown menus or searching databases. Scripting Language makes it possible to improve the usability of the webpage. It can also be used to reduce the load that the web server has to deal with, it can also be used to improve the design of a webpage which is being created. With JavaScript, there are many different things which can improve a website, such as alerts, user prompting, form handling, and cookie retention.<p>Confirming Choices and User Prompting: JavaScript can be used to get confirmation from a user that they actually want to perform an action. This is useful because it is very easy for the user to have accidentally clicked a button when they didn't mean to. This means that the website will ask the user if they meant to have pressed that button, if they did then the website will continue and perform the action. If the user did not mean to click the button then this will allow them to select no and they can continue with what they were doing to the page. Confirmation boxes in JavaScript stop the automatic loading and progression of a webpage. An example of a confirmation is JavaScript is: X = window.confirm() If (x) { delete(); }</p>
                 </div>
             </div>
         </div>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
         <!---End of Container 5--->
         
         <!---Start of Container 6--->
             <div class="container" id="con6">
                 <div class="row">
-                    <div class="col s14 pull-right" id="con6">
+            <div class="col s14 pull-right"> 
                                 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
                         <!---Start of Image 6--->
-                            <img div class="col-md-5" class="img-responsive" src="" class="img-rounded" alt="HTML">
+                        <img src="assets/img6.jpeg" class="pull-right img-responsive">
+                            </div>
                         <!---End of Image 6--->
                         <h3>JS Features</h3>
-                        <p></p>
+                        <p>Browser Detection: Scripting Language can also be used to detect what browser the user has used to access the webpage. This is helpful because different browsers display the same HTML/CSS code in slightly different ways. JavaScript can be used id needed to load different CSS style sheets depending on the browser being used. Each CSS file would work in a different browser meaning it will keep a consistent display across browsers. Older browsers aren't as secure as newer ones are and the older ones are more vulnerable than the newer browsers. This means that certain websites, such as online banking, may choose to stop users of older browsers from accessing the service in order to protect their details. An example of browser detection is:-console.log(navigator.appCodeName; //get browser name console.log(navigator.product); // get rendering engine name Checking/Validating Inputs Scripting Languages can also be used to check the data which is entered to ensure that it is in a valid format. This means that that user will be told if the information they have entered is invalid. This will ensure that the user will get a quicker response than they would if server side validation was used. Client side validation is also a good option for the designer to use. This is because it means that less invalid forms are submitted to the server, this is because most errors are caught before sending. An example of validating inputs is:- Function validateForm() { Var firstName= document.getElementById(“firstnameInput”) .value; If (x == null ii x == “”) { alert(“Name must be filled out”); } } Form Handling Forms on webpages can be improved by using JavaScript. This is because scripting languages can be used to do real time calculations. This means that calculations can be calculated for the user. And example of this is Amazon, the total cost is automatically worked out for the user. JavaScript can also be used to reset a form to its default state. This means that the user can quickly start a form again if they wish to or if they have a made a mistake. This saves the user time as they won’t have to manually delete everything themselves. An example of form handling is:- document.getElementById(“ contactForm”) .submit(); document.getElementById(‘contactForm”).reset();</p>
                         <br>
                         <br>
                         <br>
                     </div>
                 </div>
-            </div>
             <!---End of Container 3--->
         
         
