@@ -1,6 +1,7 @@
 #jumbotron {
     background-color: black;
-    color: white;
+    border: black;
+    color: white
 }
 #footer {
     background-color: black;
@@ -39,5 +40,36 @@
 #accessbtn {
     background-color: lightyellow;
     border: none;
+    color: black
+}
+#con1 {
+    background-color: lightyellow;
+    border: lightyellow;
+    color: black
+}
+
+#con2 {
+    background-color: pink;
+    border: pink;
+    color: black
+}
+#con3 {
+    background-color: plum;
+    border: plum;
+    color: black
+}
+#img1 {
+    background-color: lightyellow;
+    border: lightyellow;
+    color: black
+}
+#con4 {
+    background-color: mediumpurple;
+    border: mediumpurple;
+    color: black
+}
+#con5 {
+    background-color: plum;
+    border: plum;
     color: black
 }
