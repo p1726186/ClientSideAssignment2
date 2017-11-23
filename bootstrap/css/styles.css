@@ -1,87 +1,96 @@
+/*This will make the Jumbotron black with white text*/ 
 #jumbotron {
-    background-color: black;
-    border: black;
-    color: white;
+     background-color: black; 
+     border: black; 
+    color: white; 
 }
+/*This will change the colour of the Footer to Black with White Text*/
 #footer {
     background-color: black;
     color: white;
 }
+/*This will make the HTML & CSS Button yellow in colour with black text*/
 #htmlbtn {
     background-color: lightyellow;
     border: none;
     color: black;
 }
+/*This will make the Box Model Button pink in colour with black text*/
 #boxbtn {
     background-color: pink;
     border: none;
     color: black;
 }
+/*This will make the Scripting Button purple in colour with black text*/
 #scriptbtn {
     background-color:plum;
     border: none;
     color: black;
 }
+/*This will make the CSS Models button a darker purple in colour with black text*/
 #modelbtn {
     background-color: mediumpurple;
     border: none;
     color: black;
 }
+/*This will make the CSS Linking Button purple in colour with black text*/
 #linkbtn {
     background-color: plum;
     border: none;
     color: black;
 }
+/*This will make the JS Features Button pink in colour with black text*/
 #jsbtn {
     background-color: pink;
     border: none;
     color: black;
 }
+/*This will make the Accessibility Button yellow in colour with black text*/
 #accessbtn {
     background-color: lightyellow;
     border: none;
     color: black;
 }
+/*This will make the first Container yellow in colour with black text, this will make it the same colour as it's button*/ 
 #con1 {
     background-color: lightyellow;
     border: lightyellow;
     color: black;
 }
-
+/*This will make the second Container pink in colour with black text, this will make it the same colour as it's button*/
 #con2 {
     background-color: pink;
     border: pink;
     color: black;
 }
+/*This will make the third Container purple in colour with black text, this will make it the same as it's button*/
 #con3 {
     background-color: plum;
     border: plum;
     color: black;
 }
-#img1 {
-    background-color: lightyellow;
-    border: lightyellow;
-    color: black;
-}
+/*This will make the fourth Container a darker purple in colour with black text, this will make it the same as it's button*/
 #con4 {
     background-color: mediumpurple;
     border: mediumpurple;
     color: black
 }
+/*This will make the fifth Container purple in colour with black text, this will make it the same as it's button*/
 #con5 {
     background-color: plum;
     border: plum;
     color: black;
 }
+/*This will make the sixth Container pink in colour with black text, this will make it the same as it's button*/
 #con6 {
     background-color: pink;
     border: pink;
     color: black;
 }
+/*This will make it so that there is a gap in between itself and the container above*/
 .aBox {margin-top: -30px;
 }
+/*This will make it so that there is a gap in between the image itself and the container above*/
 .img-two {
     padding-top: 40px;
-}
-
 }
